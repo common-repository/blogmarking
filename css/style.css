@@ -1,0 +1,72 @@
+/* blogMarking */
+#bmcss{
+	text-align: center;
+	margin:5px;
+	background-color:#eee;
+	border:1px solid #ddd;
+	-moz-box-shadow:0px 0px 8px rgba(0,0,0,0.4);
+	-moz-border-radius:8px;
+	-webkit-box-shadow:0px 0px 8px rgba(0,0,0,0.4);
+	-webkit-border-radius:8px;
+	box-shadow:0px 0px 8px rgba(0,0,0,0.4);
+	border-radius:8px;
+}
+#bmcss .bm{
+	display:block;
+	color:#ccc;
+	text-align:left;
+	padding:5px;
+	margin:0 0 5px;
+	background-color:#ddd;
+	text-shadow:#fff 1px 1px 1px;
+	text-decoration:none;
+	font-weight:bold;
+	font-size:12px;
+}
+#bmcss .bm .counters{
+	float:left;
+}
+#bmcss .bm .espalhe{
+	background:url("../images/espalhe.png") repeat scroll 0 0 transparent;
+	display:block;
+	float:right;
+	height:20px;
+	width:100px;
+}
+#bmcss .bm .counters a.twtcount {
+	background:url(../images/twt.png) no-repeat left bottom;
+	text-decoration:none;
+	color:#1185a4;
+	padding:0 0 0 18px;
+}
+#bmcss .bm .counters a.twtcount:hover {
+	text-decoration:none;
+	color:#45c2e4;
+	text-shadow:#eee 1px 1px 1px;
+}
+#bmcss .bm .counters a.fbcount {
+	background:url(../images/rss.png) no-repeat left bottom;
+	text-decoration:none;
+	color:#d8661c;
+	padding: 0 0 0 18px;
+}
+#bmcss .bm .counters a.fbcount:hover {
+	text-decoration:none;
+	color:#b6510f;
+	text-shadow:#eee 1px 1px 1px;
+}
+#bmcss .bmk{
+	padding:4px;
+}
+#bmcss .bmk img{
+	width:30px;
+	height:30px;
+}
+.bmcfix:after{
+	content:".";
+	display:block;
+	clear:both;
+	visibility:hidden;
+	line-height:0;
+	height:0;
+}
